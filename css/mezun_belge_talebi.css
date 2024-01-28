@@ -123,9 +123,12 @@
     align-items: center;
 }
 .left-side .vertical-nav .nav-items ul li .active{
-    background-color: #CBCBCB;
+    background-color: #2750BB;
+    color: #fff;
 }
-
+.left-side .vertical-nav .nav-items ul li .active:hover{
+    background-color: #3166eb;
+}
 .left-side .nav-items::-webkit-scrollbar{
     display: none;
 }
@@ -178,7 +181,7 @@
 }
 .main-container .right-side .belge-talebi-up span{
     font-family: 'Poppins';
-    font-size: 20px;
+    font-size: 17px;
     color: #686868;
     margin-left: 18px;
     margin-right: 18px;
@@ -198,7 +201,7 @@
     padding-right: 20px;
 }
 .main-container .right-side .belge-talebi-down p{
-    font-size: 20px;
+    font-size: 17px;
     margin-left: 20px;
     font-family: 'Poppins';
     color: #686868;

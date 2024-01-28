@@ -123,9 +123,12 @@
     align-items: center;
 }
 .left-side .vertical-nav .nav-items ul li .active{
-    background-color: #CBCBCB;
+    background-color: #2750BB;
+    color: #fff;
 }
-
+.left-side .vertical-nav .nav-items ul li .active:hover{
+    background-color: #3166eb;
+}
 .left-side .nav-items::-webkit-scrollbar{
     display: none;
 }
@@ -178,7 +181,7 @@
 }
 .main-container .right-side .not-dokum-up span{
     font-family: 'Poppins';
-    font-size: 20px;
+    font-size: 17px;
     color: #686868;
     margin-left: 18px;
     margin-right: 18px;
@@ -200,7 +203,7 @@
 }
 .main-container .right-side .not-dokum-down p{
     font-family: 'Poppins';
-    font-size: 20px;
+    font-size: 17px;
     color: #686868;
     margin-left: 18px;
     margin-right: 18px;

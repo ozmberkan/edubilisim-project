@@ -123,7 +123,11 @@
     align-items: center;
 }
 .left-side .vertical-nav .nav-items ul li .active{
-    background-color: #CBCBCB;
+    background-color: #2750BB;
+    color: #fff;
+}
+.left-side .vertical-nav .nav-items ul li .active:hover{
+    background-color: #3166eb;
 }
 
 .left-side .nav-items::-webkit-scrollbar{
@@ -202,19 +206,6 @@
     margin-left: 20px;
     font-family: 'Poppins';
     color: #686868;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
-.main-container .right-side .yeni-sifre-down a{
-    background-color: #2750BB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 50px;
-    color: #fff;
-    text-decoration: none;
-    font-family: 'Poppins';
-    border-radius: 5px;
-    margin-left: 20px;
-    
-}
+
