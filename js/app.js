@@ -1,0 +1,1 @@
+alert("D.E.U. Debis portalının yeniden tasarlanmış halidir. Herhangi bir kurum/kuruluşa hizmet etmemektedir. Henüz yapım aşamasında olup eksiklikler sürekli olarak güncellenmektedir/düzenlenmektedir.")

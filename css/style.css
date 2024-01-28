@@ -1,0 +1,397 @@
+@font-face {font-family: 'sfbold';src: url(/fonts/sfbold.OTF);}@font-face {font-family: 'sfmed';src: url(/fonts/sfmed.OTF);}@font-face {font-family: 'sfreg';src: url(/fonts/sfreg.OTF);}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    width: 90%;
+    height: 874px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 57px;
+}
+
+.left-side{
+    width: 50%;
+    height: 874px;
+}
+.nav-bar{
+    width: 100%;
+    height: 82px;
+    border-radius: 15px;
+    border: 1px solid #E7E7E7;
+    background: #f2f2f2;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15), 0px 56px 16px 0px rgba(0, 0, 0, 0.00);
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav-bar .activeLi{
+    height: 82px;
+    border-right: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    margin-right: 30px;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav-bar ul li{
+    list-style-type: none;
+    
+}
+.nav-bar ul li .activeBtn img{
+    width: 120px;
+    filter: drop-shadow(15px 4px 15.9px 15px #000000);
+}
+.nav-bar .navBtn{
+    width: 120px;
+    height: 50px;
+    border-radius: 7px;
+    border: 1px solid #A6A6A6;
+    background: #F3F3F3;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-family: 'sfreg';
+    font-size: 15px;
+    transition: .5s ease-in-out;
+}
+.nav-bar .navBtn:hover{
+    background-color: #e2e2e2;
+    transition: .5s ease-in-out;
+}
+.nav-bar ul input{
+    width: 200px;
+    height: 50px;
+    border-radius: 7px 0px 0px 7px;
+    border: 1px solid #a6a6a6;
+    background: #F3F3F3;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.nav-bar ul input:focus{
+    outline: none;
+    border: 1px solid #a6a6a6;
+    font-size: 15px;
+    
+}
+.nav-bar ul input::placeholder{
+    color: #928E8E;
+}
+.nav-bar ul label{
+    width: 50px;
+    height: 50px;
+    background-color: #2750BB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 7px 7px 0px;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+.nav-bar ul label:hover{
+    background-color: #287acc;
+    transition: .5s ease-in-out;
+}
+
+.login-form{
+    width: 100%;
+    height: 275px;
+    border-radius: 15px;
+    border: 1px solid #E7E7E7;
+    background: #f2f2f2;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15), 0px 56px 16px 0px rgba(0, 0, 0, 0.00);
+    margin-bottom: 30px;
+    padding: 15px 30px 15px 30px;
+    transition: .3s ease-in-out;
+}
+
+.login-form form input:focus{
+    background-color: #ececec;
+    transition: .3s ease-in-out;
+}
+.login-form .login-form-text{
+    width: 100%;
+    font-family: 'sfbold';
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.login-form .login-form-text p{
+    font-family: 'sfreg';
+    color: #8f8f8f;
+    margin-bottom: 25px;
+}
+
+.login-form form{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.leftform{
+    width: 50%;
+}
+.leftform .leftformusername{
+    display: flex;
+    margin-bottom: 25px;
+}
+.leftform .userLabel{
+    width: 70px;
+    height: 60px;
+    background-color: #2750BB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 0px 0px 5px;
+}
+.leftform .username{
+    height: 60px;
+    width: 100%;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #A6A6A6;
+    background: #F3F3F3;
+    font-family: 'sfreg';
+    font-size: 15px;
+    padding-left: 10px;
+    color: #000000;
+}
+.leftform .userLabel i {
+    color: #fff;
+}
+.leftform .leftformkey{
+    display: flex;
+}
+.leftform .keyLabel{
+    width: 70px;
+    height: 60px;
+    background-color: #2750BB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 0px 0px 5px;
+}
+.leftform .password{
+    height: 60px;
+    width: 100%;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #A6A6A6;
+    background: #F3F3F3;
+    font-family: 'sfreg';
+    font-size: 15px;
+    padding-left: 10px;
+    color: #000000;
+}
+.leftform .password::placeholder,
+.leftform .username::placeholder{
+    font-family: 'sfreg';
+    font-size: 15px;
+    color: #9d9d9d;
+}
+
+
+.leftform .password:focus,
+.leftform .username:focus{
+    outline: none;
+    border: 1px solid #A6A6A6;
+}
+.leftform .keyLabel i {
+    color: #fff;
+}
+.rightform{
+    width: 50%;
+}
+.rightform .rightformselect{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.rightformselect .studentStaffLabel{
+    width: 70px;
+    height: 60px;
+    background-color: #2750BB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 22px;
+    margin-right: 8px;
+    color: #fff;
+    font-family: 'sfmed';
+    font-size: 30px;
+}
+.rightformselect select{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #A6A6A6;
+    background: #F3F3F3;
+    padding-left: 10px;
+    font-family: 'sfreg';
+    font-size: 15px;
+    color: #9d9d9d;
+}
+
+
+.rightform .rightformloginbtn .loginBtn{
+    height: 60px;
+    background-color: #2750BB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'sfmed';
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 22px;
+    border-radius: 5px;
+    transition: .5s ease-in-out;
+}
+
+.rightform .rightformloginbtn .loginBtn:hover{
+    background-color: #287acc;
+    transition: .5s ease-in-out;
+}
+
+
+
+.help-text{
+    width: 100%;
+    height: 155px;
+    border-radius: 15px;
+    border: 1px solid #E7E7E7;
+    background: #f2f2f2;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15), 0px 56px 16px 0px rgba(0, 0, 0, 0.00);
+    margin-bottom: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.help-text p{
+    width: 100%;
+    font-size: 20px;
+    font-family: 'sfreg';
+    color: #838383;
+}
+.help-text .helpBtn{
+    width: 160px;
+    height: 60px;
+    background-color: #2750BB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'sfmed';
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.info-text{
+    width: 100%;
+    height: 272px;
+    border-radius: 15px;
+    border: 1px solid #E7E7E7;
+    background: #f2f2f2;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15), 0px 56px 16px 0px rgba(0, 0, 0, 0.00);
+    padding: 30px;
+}
+
+.info-text p {
+    font-size: 20px;
+    font-family: 'sfreg';
+    color: #838383;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Right Side */
+.right-side{
+    width: 50%;
+    height: 874px;
+}
+.warning-text{
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+    border: 1px solid #E7E7E7;
+    background: #f2f2f2;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15), 0px 56px 16px 0px rgba(0, 0, 0, 0.00);
+    margin-bottom: 16px;
+    padding: 30px;
+}
+.warning-text p {
+    font-size: 20px;
+    font-family: 'sfreg';
+    color: #000000;
+}
+.link-text{
+    width: 100%;
+    height: 65px;
+    border-radius: 15px;
+    border: 1px solid #E7E7E7;
+    background: #f2f2f2;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15), 0px 56px 16px 0px rgba(0, 0, 0, 0.00);
+    margin-bottom: 16px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.link-text p {
+    font-size: 17px;
+    font-family: 'sfreg';
+    color: #000000;
+}
+
+.announcement-text{
+    width: 100%;
+    height: 527px;
+    border-radius: 15px;
+    border: 1px solid #E7E7E7;
+    background: #f2f2f2;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15), 0px 56px 16px 0px rgba(0, 0, 0, 0.00);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.announcement-text img{
+    width: 480px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    border: 2px solid #d6d6d6;
+}
+.announcement-text p {
+    font-size: 17px;
+    font-family: 'sfreg';
+    color: #000000;
+}
