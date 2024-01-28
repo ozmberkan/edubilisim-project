@@ -1,1 +1,1 @@
-# eduportal
+# Edu Bilişim Servisleri. Düzenleme Tarihi : 29.01.2024
