@@ -114,7 +114,9 @@
     overflow: auto;
 
 }
-.left-side .vertical-nav .nav-items ul li a i{
+
+.left-side .vertical-nav .nav-items ul li a i
+{
     color: #ADADAD;
     margin-right: 15px;
     font-size: 17px;

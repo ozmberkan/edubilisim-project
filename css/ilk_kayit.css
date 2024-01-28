@@ -123,7 +123,13 @@
     align-items: center;
 }
 .left-side .vertical-nav .nav-items ul li .active{
-    background-color: #CBCBCB;
+    background-color: #2750BB;
+    color: #fff;
+    transition: .3s ease-in-out;
+}
+.left-side .vertical-nav .nav-items ul li .active:hover{
+    background-color: #6280ca;
+    transition: .3s ease-in-out;
 }
 
 .left-side .nav-items::-webkit-scrollbar{
